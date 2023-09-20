@@ -90,7 +90,7 @@
    ```
 1. Write the whole data to img file.
    ```sh
-   zcat path_to_img/wrlinux-image-minimal-bcm-2xxx-rpi4.ustart.img.gz.gz | dd of=path_to_vsd/img conv=notrunc 
+   zcat path_to_img/wrlinux-image-minimal-bcm-2xxx-rpi4.ustart.img.gz | dd of=path_to_vsd/img conv=notrunc 
    ```
 1. Copy qemu-u-boot-bcm-2xxx-rpi4.bin to path_to_img.
    ```sh
